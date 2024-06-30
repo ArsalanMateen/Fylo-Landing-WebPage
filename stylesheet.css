@@ -1,0 +1,684 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", "Open Sans", sans-serif;
+}
+
+header {
+  min-width: 327px;
+  width: 100%;
+  margin: 40px 0px 80px 0px;
+  padding: 0px 60px 0px 60px;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .logo img {
+  max-height: 46px;
+  max-width: 56px;
+}
+
+nav .logo h1 {
+  font-size: 50px;
+  font-weight: 700;
+  font-family: "Raleway";
+  color: #000000;
+  padding-left: 15px;
+}
+
+nav .tabs {
+  display: flex;
+  min-width: 271px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .tabs li {
+  font-size: 16px;
+  color: #07043b;
+  list-style: none;
+  font-weight: 500;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+main .hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0px 60px;
+  margin-bottom: 40px;
+  flex-wrap: wrap-reverse;
+}
+
+main .hero .content {
+  max-width: 640px;
+  min-width: 304px;
+}
+
+main .hero .content h1 {
+  width: 100%;
+  line-height: 60px;
+  font-family: "Raleway";
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+main .hero .content p {
+  max-width: 585px;
+  font-size: 16px;
+  font-family: "Open Sans";
+  letter-spacing: 0.53px;
+  line-height: 24px;
+  color: #07043bb0;
+}
+
+main .hero .content form {
+  max-width: 536px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+  gap: 15px;
+}
+
+main .hero .content form .email {
+  max-width: 320px;
+  min-width: 304px;
+  border: 1px solid #8582ad;
+}
+
+main .hero .content form .submit-btn {
+  background-color: #2f65f8;
+  max-width: 200px;
+  color: white;
+  border: none;
+}
+
+main .hero .content form .email,
+main .hero .content form .submit-btn {
+  width: 100%;
+  font-family: "Open Sans";
+  font-size: 14px;
+  padding: 15px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+main .hero .image {
+  max-width: 640px;
+  min-width: 304px;
+  max-height: 100%;
+  width: 100%;
+  margin-left: 20px;
+}
+
+main .hero .image img {
+  width: 100%;
+  max-height: 100%;
+}
+
+main .file-sharing {
+  width: 100%;
+}
+
+main .file-sharing .shape {
+  width: 100%;
+  background-color: #f8f8fe;
+  clip-path: polygon(0% 10%, 0% 100%, 100% 100%, 100% 12%, 50% 4%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 170px 60px 90px 60px;
+}
+
+main .file-sharing .shape .content {
+  max-width: 650px;
+  width: 100%;
+}
+
+main .file-sharing .shape .content h2 {
+  width: 100%;
+  font-family: "Raleway";
+  font-size: 40px;
+  margin-bottom: 38px;
+}
+
+main .file-sharing .shape .content p {
+  max-width: 529px;
+  width: 100%;
+  font-family: "Open Sans";
+  font-size: 16px;
+  color: #07043bb0;
+  line-height: 24px;
+  margin-bottom: 15px;
+}
+
+main .file-sharing .shape .content a {
+  max-width: 176px;
+  width: 100%;
+  text-decoration: none;
+  padding-bottom: 4px;
+  border-bottom: 2px solid #3da08f;
+  font-family: "Open Sans";
+  color: #3da08f;
+}
+
+.fa-circle-arrow-right {
+  padding-left: 10px;
+}
+
+main .file-sharing .shape .content .CEO-Feedback {
+  max-width: 356px;
+  width: 100%;
+  margin-top: 45px;
+  background-color: white;
+  padding: 30px 35px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+main .file-sharing .shape .content .CEO-Feedback p {
+  max-width: 289px;
+  line-height: 23px;
+  font-size: 13px;
+  letter-spacing: 0.53px;
+  margin-bottom: 22px;
+}
+
+main .file-sharing .shape .content .CEO-Feedback .about-CEO {
+  min-width: 137px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+main .file-sharing .shape .content .CEO-Feedback .about-CEO .info h3 {
+  font-family: "Open Sans";
+  font-size: 11px;
+  letter-spacing: 0.55px;
+}
+
+main .file-sharing .shape .content .CEO-Feedback .about-CEO .info p {
+  font-family: "Open Sans";
+  font-size: 9px;
+  letter-spacing: 0.55px;
+  line-height: 16px;
+  margin-bottom: 0px;
+}
+
+main .file-sharing .shape .image {
+  max-width: 542px;
+  min-width: 320px;
+  max-height: 100%;
+}
+
+main .file-sharing .shape .image img {
+  width: 100%;
+  max-height: 100%;
+}
+
+main .early-access {
+  width: 100%;
+  background-color: #575988;
+  padding: 85px 60px;
+}
+
+main .early-access .content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+main .early-access .content .text {
+  max-width: 533px;
+  width: 100%;
+  color: white;
+}
+
+main .early-access .content .text h2 {
+  font-family: "Raleway";
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 48px;
+  margin-bottom: 18px;
+}
+
+main .early-access .content .text p {
+  font-family: "Open Sans";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+main .early-access .content form {
+  width: 100%;
+  max-width: 480px;
+  display: flex;
+  flex-direction: column;
+}
+
+main .early-access .content form .email {
+  line-height: 27px;
+  background-color: #ffffff;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 12px 20px;
+  border: 1px solid #8582ad;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 14px;
+}
+
+main .early-access .content form .submit-btn {
+  max-width: 200px;
+  background-color: #2f65f8;
+  color: #ffffff;
+  font-family: "Raleway";
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 18px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+footer {
+  display: flex;
+  align-items: flex-end;
+  background-color: #07043b;
+  width: 100%;
+  color: white;
+  padding: 60px 60px 70px 60px;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer .about-comp {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  width: 100%;
+  max-width: 222px;
+}
+
+footer .about-comp .logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+footer .about-comp .contact-us li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+footer .options {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer .options ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+footer .options .socials {
+  display: flex;
+  gap: 10px;
+}
+
+@media (max-width: 1420px) {
+  main .hero .content {
+    max-width: 585px;
+  }
+
+  main .hero .image {
+    max-width: 597px;
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 1322px) {
+  main .hero {
+    flex-direction: column-reverse;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  main .hero .content {
+    margin-top: 45px;
+    max-width: 640px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  main .hero .content h1 {
+    text-align: center;
+  }
+
+  main .hero .content p {
+    text-align: center;
+    line-height: 24px;
+    font-size: 15px;
+  }
+
+  main .file-sharing .shape {
+    flex-direction: column-reverse;
+    justify-content: center;
+    clip-path: polygon(0% 10%, 0% 100%, 100% 100%, 100% 12%, 50% 7%);
+  }
+
+  main .file-sharing .shape .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 90px;
+  }
+
+  main .file-sharing .shape .content h2 {
+    text-align: center;
+  }
+
+  main .file-sharing .shape .content P {
+    text-align: center;
+  }
+}
+
+@media (max-width: 1163px) {
+  main .early-access .content {
+    justify-content: center;
+  }
+
+  main .early-access .content .text h2,
+  main .early-access .content .text p {
+    text-align: center;
+  }
+
+  main .early-access .content form .submit-btn {
+    max-width: 480px;
+    font-size: 13px;
+    line-height: 25px;
+  }
+}
+
+@media (max-width: 960px) {
+  header {
+    padding: 0px 50px 0px 50px;
+  }
+
+  nav .logo img {
+    max-height: 45px;
+    max-width: 50px;
+  }
+
+  nav .logo h1 {
+    font-size: 40px;
+  }
+
+  nav .tabs {
+    min-width: 230px;
+  }
+
+  nav .tabs li {
+    font-size: 13px;
+  }
+
+  main .hero {
+    padding: 0px 50px;
+  }
+
+  main .file-sharing .shape .content h2 {
+    font-size: 33px;
+  }
+
+  main .early-access {
+    padding: 40px 45px;
+  }
+}
+
+@media (max-width: 880px) {
+  footer {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 60px 40px;
+  }
+
+  footer .about-comp {
+    align-items: center;
+    gap: 20px;
+  }
+
+  footer .options {
+    flex-direction: column;
+    align-items: center;
+    gap: 45px;
+  }
+
+  footer .options ul {
+    align-items: center;
+  }
+}
+
+@media (max-width: 771px) {
+  header {
+    padding: 0px 40px 0px 40px;
+  }
+
+  nav .logo img {
+    max-height: 40px;
+    max-width: 45px;
+  }
+
+  nav .logo h1 {
+    font-size: 38px;
+  }
+
+  nav .tabs {
+    min-width: 200px;
+  }
+
+  nav .tabs li {
+    font-size: 13px;
+  }
+
+  main .hero {
+    padding: 0px 40px;
+  }
+
+  main .hero .content h1 {
+    font-size: 36px;
+    line-height: 45px;
+    max-width: 593px;
+  }
+
+  main .file-sharing .shape .content h2 {
+    font-size: 30px;
+  }
+
+  main .early-access {
+    padding: 40px 35px;
+  }
+}
+
+@media (max-width: 673px) {
+  header {
+    padding: 0px 30px 0px 30px;
+  }
+
+  nav .logo img {
+    max-height: 35px;
+    max-width: 40px;
+  }
+
+  nav .logo h1 {
+    font-size: 36px;
+  }
+
+  nav .tabs {
+    min-width: 175px;
+  }
+
+  nav .tabs li {
+    font-size: 12px;
+  }
+
+  main .hero {
+    padding: 0px 30px;
+  }
+
+  main .hero .content h1 {
+    font-size: 32px;
+    line-height: 40px;
+    max-width: 539px;
+  }
+
+  main .hero .content p {
+    font-size: 14px;
+    line-height: 22px;
+    max-width: 510px;
+  }
+
+  main .hero .content form {
+    flex-direction: column;
+  }
+
+  main .hero .content form .email {
+    font-size: 11px;
+  }
+
+  main .hero .content form .submit-btn {
+    max-width: 320px;
+    min-width: 304px;
+    font-size: 12px;
+  }
+
+  main .file-sharing .shape {
+    padding: 160px 35px 90px 35px;
+  }
+
+  main .file-sharing .shape .content h2,
+  main .early-access .content .text h2 {
+    font-size: 28px;
+  }
+
+  main .file-sharing .shape .content p,
+  main .early-access .content .text p {
+    max-width: 508px;
+    font-size: 14px;
+  }
+
+  main .early-access {
+    padding: 40px 30px;
+  }
+
+  main .early-access .content form {
+    align-items: center;
+  }
+
+  main .early-access .content form .email,
+  main .early-access .content form .submit-btn {
+    width: 100%;
+    max-width: 304px;
+    font-size: 11px;
+    padding: 8px 12px;
+  }
+}
+
+@media (max-width: 554px) {
+  header {
+    margin: 30px 0px 40px 0px;
+    padding: 0px 20px 0px 20px;
+  }
+
+  nav .logo img {
+    max-height: 30px;
+    max-width: 33px;
+  }
+
+  nav .logo h1 {
+    font-size: 33px;
+    padding-left: 10px;
+  }
+
+  nav .tabs {
+    min-width: 155px;
+  }
+
+  nav .tabs li {
+    font-size: 11px;
+  }
+
+  main .hero {
+    padding: 0px 20px;
+  }
+
+  main .hero .content {
+    max-width: 421px;
+  }
+
+  main .hero .content h1 {
+    font-size: 26px;
+  }
+
+  main .hero .content form .email,
+  main .hero .content form .submit-btn {
+    padding: 13px 15px;
+  }
+
+  main .file-sharing .shape {
+    clip-path: polygon(0% 10%, 0% 100%, 100% 100%, 100% 12%, 50% 6%);
+    padding: 140px 20px 60px 20px;
+  }
+
+  main .file-sharing .shape .content {
+    margin-top: 60px;
+  }
+
+  main .file-sharing .shape .content h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  main .file-sharing .shape .content p {
+    font-size: 12px;
+    line-height: 20px;
+    max-width: 430px;
+  }
+
+  main .file-sharing .shape .content .CEO-Feedback p {
+    text-align: left;
+  }
+}
