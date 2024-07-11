@@ -481,6 +481,10 @@ footer .options .socials {
     gap: 20px;
   }
 
+  footer .about-comp .contact-us li {
+    justify-content: center;
+  }
+
   footer .options {
     flex-direction: column;
     align-items: center;
